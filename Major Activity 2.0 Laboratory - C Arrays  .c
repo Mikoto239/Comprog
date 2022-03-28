@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main(){
     int arr[3][2] = {{1111,2222},{3333,4444},{5555,6666}};
@@ -14,7 +14,7 @@ int main(){
     }
     return 0;
 }
-void func(int ar[3][2],int d, int in){
+int func(int ar[3][2],int d, int in){
        int j=0;
        for(int i = 0; i<3; i++){
         if(d == ar[i][0] && in == ar[i][1])
