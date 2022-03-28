@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int arr[3][2] = {{1,2},{3,4},{5,6}};
+    int arr[3][2] = {{1111,2222},{3333,4444},{5555,6666}};
     int id,pin;
     printf("Enter ID Number: ");
     scanf("%d",&id);
