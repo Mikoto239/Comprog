@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int sub1,b=1,sum=0, limit=5;
+    int sub,b=1,sum=0, limit=5;
 
     printf("Enter Five Graded Subjects:\n");
 
    for(int i =1 ;i<=limit;i++)
    {
        printf("subject %d:",b++);
-       scanf("%d",&sub1);
-       sum+=sub1;
+       scanf("%d",&sub);
+       sum+=sub;
    }
 
    average(sum,limit);
