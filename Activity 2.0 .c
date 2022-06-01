@@ -22,6 +22,6 @@ int main()
    {
     int avrg;
     avrg=a/b;
-    printf("Average:%d",avrg);
+    printf("Average = %d",avrg);
 
    }
