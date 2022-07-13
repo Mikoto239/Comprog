@@ -29,13 +29,13 @@ int main()
 
     }
 
-			for(j = startIndex; j <= endIndex; j++)
-			{
-				printf("%c",str[j]);
+	for(j = startIndex; j <= endIndex; j++)
+      {
+	printf("%c",str[j]);
 
-			}
-			endIndex = i - 1;
-            printf(" ");
+      }
+	 endIndex = i - 1;
+         printf(" ");
 		}
 	}
 
