@@ -20,22 +20,26 @@ int main()
 		{
 			if(i=='\0')
 			{
-       startIndex = 0;
+       startIndex = 0;
+
 			}
 
 			else
     {
        startIndex=i+1;
 
-    }
+    }
+
 			for(j = startIndex; j <= endIndex; j++)
 			{
-				printf("%c",str[j]);
+				printf("%c",str[j]);
+
 			}
 			endIndex = i - 1;
             printf(" ");
 		}
-	}
+	}
+
   	return 0;
 }
     
