@@ -203,6 +203,41 @@ else
 
    return 0;
 }
+// Finding the Mean
+	#include <stdio.h>
+int main()
+{ int a,sum=0,summ=0,c,b=1,avrg=0;
+
+do{
+    printf("[%d]Enter integer:",b++);
+    scanf("%d",&a);
+         c=b;
+    if(a<0)
+    { c-=1;
+        while(a<0)
+        {
+          printf("[%d]Enter integer:",c);
+           scanf("%d",&a);
+
+           if(a>0)
+           {
+               summ+=a;
+           }
+        }
+    }
+    else if(a>0)
+    {
+       sum+=a;
+    }
+}
+    while(a!=0);
+  sum=sum+summ;
+  b=b-2;
+    avrg=sum/b;
+    printf("Average:%d",avrg);
+    return 0;
+}
+
 
 
 }
